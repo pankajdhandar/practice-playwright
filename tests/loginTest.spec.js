@@ -6,7 +6,4 @@ test('verify that user can login ', async ({ page }) => {
     await page.locator("input[placeholder = 'Password']").fill('admin123');
     await page.locator("[type = 'submit']").click();
 
-
-
-
 })
